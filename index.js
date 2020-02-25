@@ -1,5 +1,8 @@
+const data = require('./data.json')
+
 //import express
 const express = require("express");
+
 
 //express server
 const app = express();
@@ -13,7 +16,7 @@ function onRequest() {
 app.get(
   "/page", //route to listen
   (request, response) => {
-    response.send("Hello client"); //sending datas
+    response.send(data); //sending datas
   }
 );
 

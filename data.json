@@ -1,0 +1,20 @@
+[
+  {
+  "name": "Scooby-doo",
+  "photo": "URL",
+  "post": "This is Scooby-doo talking Scooby-doo things and being all scooby-doo.",
+  "likes": "4"
+  },
+  {
+    "name": "Anakin Skywalker",
+    "photo": "URL",
+    "post": "The darkside serves cookies.",
+    "likes": "66"
+  },
+  {
+    "name": "Goku",
+    "photo": "URL",
+    "post": "I'm the strongest in the universe.",
+    "likes": "37"
+  }
+]

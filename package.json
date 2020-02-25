@@ -16,8 +16,8 @@
     "url": "https://github.com/JasonNelemans/react-project-server/issues"
   },
   "homepage": "https://github.com/JasonNelemans/react-project-server#readme",
-  "description": "",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "description": ""
 }
