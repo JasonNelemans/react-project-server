@@ -9,13 +9,16 @@ function onRequest() {
   console.log("after request");
 }
 
+//register GET / hello endpoint
+app.get(
+  "/page", //route to listen
+  (request, response) => {
+    response.send("Hello client"); //sending datas
+  }
+);
+
 //port number
 const port = 3000;
 
-//confirmation function
-function onListen() {
-  console.log(`Listening on :${port}`);
-}
-
 //port starting listening
-app.listen(port, onListen);
+app.listen(port, () => console.log(`Listening on :${port}`));
