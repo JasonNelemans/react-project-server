@@ -14,14 +14,14 @@ function onRequest() {
 
 //register GET / hello endpoint
 app.get(
-  "/page", //route to listen
+  "/", //route to listen
   (request, response) => {
     response.send(data); //sending datas
   }
 );
 
 //port number
-const port = 3000;
+const port = 4000;
 
 //port starting listening
 app.listen(port, () => console.log(`Listening on :${port}`));

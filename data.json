@@ -3,18 +3,30 @@
   "name": "Scooby-doo",
   "photo": "URL",
   "post": "This is Scooby-doo talking Scooby-doo things and being all scooby-doo.",
-  "likes": "4"
+  "likes": "4",
+  "comments": [
+    {"Shaggy": "Scooby doo, where are you?"},
+    {"Velma": "HAha Scooby-doo"}
+  ]
   },
   {
     "name": "Anakin Skywalker",
     "photo": "URL",
     "post": "The darkside serves cookies.",
-    "likes": "66"
+    "likes": "66",
+    "comments": [
+      {"Obi wan": "Don't do it Anakain."},
+      {"Padmé": "Is sand rough and coarse?"}
+    ]
   },
   {
     "name": "Goku",
     "photo": "URL",
     "post": "I'm the strongest in the universe.",
-    "likes": "37"
+    "likes": "37",
+    "comments": [
+      {"Gohan": "Dad you're so cool"},
+      {"Vegeta": "Lies, Kakarot!"}
+    ]
   }
 ]
